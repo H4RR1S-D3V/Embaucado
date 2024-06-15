@@ -32,6 +32,22 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Funciones/chequearMano.cpp" />
+		<Unit filename="Funciones/chequearMano.h" />
+		<Unit filename="Funciones/chequearMano2.cpp" />
+		<Unit filename="Funciones/chequearMano2.h" />
+		<Unit filename="Funciones/decodificarCarta.cpp" />
+		<Unit filename="Funciones/decodificarCarta.h" />
+		<Unit filename="Funciones/decodificarMano.cpp" />
+		<Unit filename="Funciones/decodificarMano.h" />
+		<Unit filename="Funciones/mostrarMano.cpp" />
+		<Unit filename="Funciones/mostrarMano.h" />
+		<Unit filename="Funciones/mostrarMenu.cpp" />
+		<Unit filename="Funciones/mostrarMenu.h" />
+		<Unit filename="Funciones/robarMano.cpp" />
+		<Unit filename="Funciones/robarMano.h" />
+		<Unit filename="Funciones/sumarPuntos.cpp" />
+		<Unit filename="Funciones/sumarPuntos.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
