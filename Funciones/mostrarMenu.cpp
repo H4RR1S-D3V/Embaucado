@@ -13,7 +13,7 @@ void mostrarMenu()
 {
     /// INICIALIZAR VECTORES
 
-    // CANTIDAD DE CARTAS POR MANO (MÁXIMO 10)
+    // CANTIDAD DE CARTAS POR MANO (MAXIMO 10)
     int tam = 5;
     // VECTOR MANO JUGADOR 1
     int v[tam];
