@@ -6,6 +6,8 @@ using namespace std;
 
 int main()
 {
+    /// HOLAAAA
+
     /// SEMILLA EN CERO (PARA NUMEROS "ALEATOREOS")
     srand(time(0));
     /// INGRESAR AL MENU PRINCIPAL
