@@ -1,9 +1,11 @@
 #include <iostream>
 #include "rlutil.h"
 
+#include "elegirNombres.h"
+
 using namespace std;
 
-int main()
+void elegirNombres(string &nombreJugadorUno, string &nombreJugadorDos)
 {
     int fin = 1;
     int posicionCursor = 0 ;
@@ -87,8 +89,6 @@ int main()
 
     do
     {
-        string nombreJugadorUno, nombreJugadorDos;
-
         rlutil::locate(55,10);
         cout << "INGRESE NOMBRE DE JUGADOR UNO: ";
         rlutil::locate(85,10);
@@ -102,6 +102,8 @@ int main()
 
         rlutil::locate(70,17);
         cout << "CONFIRMAR NOMBRES?" << endl;
+
+        /// pegar lo de wwp
 
         rlutil::locate(78,19);
         cout << "SI"<< endl;
@@ -128,6 +130,4 @@ int main()
     }
     while (fin != 0);
 
-
-    return 0;
 }
