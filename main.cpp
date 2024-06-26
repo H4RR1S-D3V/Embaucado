@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    /// VECTORES DE ESTADISTICAS
+    /// VECTORES DE ESTADISTICAS (SE REINICIAN CADA JUEGO NUEVO)
     int vTopTresPuntos[3] = {0};
     string vTopTresNombres[3];
 

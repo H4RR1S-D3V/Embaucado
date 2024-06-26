@@ -3,10 +3,10 @@
 using namespace std;
 
 /// ESTA FUNCION ACUMULA LOS VALORES DE LAS CARTAS CUYOS PALOS NO COINCIDAN CON EL DE LA CARTA ENBAUCADORA Y RETORNA EL RESULTADO FINAL
-/// ENTRE MINIMO Y MAXIMO ESTÁ EL RANGO DE CARTAS CANCELADAS POR LA EMBAUCADORA (INCLUYENDO AMBOS)
+/// ENTRE MINIMO Y MAXIMO ESTA EL RANGO DE CARTAS CANCELADAS POR LA EMBAUCADORA (INCLUYENDO AMBOS)
 int SumarPuntos(int minimo, int maximo, int v[], int tam)
 {
-    // INICIALIZAR EL ACUMULADOR
+    /// INICIALIZAR EL ACUMULADOR
     int puntos = 0;
 
     for(int i=0; i<tam; i++)
@@ -14,9 +14,9 @@ int SumarPuntos(int minimo, int maximo, int v[], int tam)
         /*
             SI EL ELEMENTO ES:
                 > MAYOR A CERO Y MENOR AL MINIMO
-                    Ó
-                > MENOR A 21 Y MAYOR AL MÁXIMO
-            ACUMULARÁ SU VALOR A LOS PUNTOS
+                    O
+                > MENOR A 21 Y MAYOR AL MAXIMO
+            ACUMULARA SU VALOR A LOS PUNTOS
         */
         if((v[i] > 0 && v[i] < minimo) || (v[i] > maximo && v[i] <= 20))   // RANGOS DE CARTAS NO CANCELADAS
         {

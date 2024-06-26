@@ -3,8 +3,7 @@
 
 using namespace std;
 
-/// ESTA FUNCIÓN GENERA N NUMEROS "ALEATOREOS" Y LOS GUARDA EN UN VECTOR (MANO DEL JUGADOR)
-
+/// ESTA FUNCION GENERA N NUMEROS "ALEATOREOS" Y LOS GUARDA EN UN VECTOR (MANO DEL JUGADOR)
 void robarMano(int v[], int tam)
 {
     for(int y=0; y<tam; y++)

@@ -4,6 +4,7 @@
 
 using namespace std;
 
+/// ESTA FUNCION RECIHBE UN NUMERO DEL 1 AL 4 Y MUESTRA LA EMBAUUCADORA CORRESPONDIENTE
 void mostrarEmbaucadora(int nRandom)
 {
     switch(nRandom)

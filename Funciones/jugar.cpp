@@ -3,7 +3,6 @@
 
 #include "rlutil.h"
 
-
 #include "elegirNombres.h"
 #include "robarMano.h"
 #include "chequearMano.h"
@@ -45,7 +44,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
     int puntajeAux1;
     int puntajeAux2;
 
-    /// SETEAR EMBAUCADORA
+    /// SETEAR RANGO DE EMBAUCADORA
     int minimo;
     int maximo;
 
@@ -115,7 +114,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
             cout << "PUNTAJE DE RONDA: " << puntajeAux1 << endl;
 
             cout << endl << nombreJugadorDos << endl;
-            // PASAR LA MANO DEL JUGADOR 1 DE CODIGOS A CARTAS
+            // PASAR LA MANO DEL JUGADOR 2 DE CODIGOS A CARTAS
             decodificarMano(v2, tam);
             cout << "PUNTAJE ACUMULADO: " << puntajeJ2<< endl;
             cout << "PUNTAJE DE RONDA: " << puntajeAux2 << endl;
@@ -146,7 +145,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
                     cout << "PUNTAJE DE RONDA: " << puntajeAux1 << endl;
 
                     cout << endl << nombreJugadorDos << endl;
-                    // PASAR LA MANO DEL JUGADOR 1 DE CODIGOS A CARTAS
+                    // PASAR LA MANO DEL JUGADOR 2 DE CODIGOS A CARTAS
                     decodificarMano(v2, tam);
                     cout << "PUNTAJE ACUMULADO: " << puntajeJ2<< endl;
                     cout << "PUNTAJE DE RONDA: " << puntajeAux2 << endl;
@@ -216,7 +215,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
             cout << "PUNTAJE DE RONDA: " << puntajeAux1 << endl;
 
             cout << endl << nombreJugadorDos << endl;
-            // PASAR LA MANO DEL JUGADOR 1 DE CODIGOS A CARTAS
+            // PASAR LA MANO DEL JUGADOR 2 DE CODIGOS A CARTAS
             decodificarMano(v2, tam);
             cout << "PUNTAJE ACUMULADO: " << puntajeJ2<< endl;
             cout << "PUNTAJE DE RONDA: " << puntajeAux2 << endl;
@@ -246,7 +245,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
                     cout << "PUNTAJE DE RONDA: " << puntajeAux1 << endl;
 
                     cout << endl << nombreJugadorDos << endl;
-                    // PASAR LA MANO DEL JUGADOR 1 DE CODIGOS A CARTAS
+                    // PASAR LA MANO DEL JUGADOR 2 DE CODIGOS A CARTAS
                     decodificarMano(v2, tam);
                     cout << "PUNTAJE ACUMULADO: " << puntajeJ2<< endl;
                     cout << "PUNTAJE DE RONDA: " << puntajeAux2 << endl;
@@ -281,7 +280,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
                     cout << "PUNTAJE DE RONDA: " << puntajeAux1 << endl;
 
                     cout << endl << nombreJugadorDos << endl;
-                    // PASAR LA MANO DEL JUGADOR 1 DE CODIGOS A CARTAS
+                    // PASAR LA MANO DEL JUGADOR 2 DE CODIGOS A CARTAS
                     decodificarMano(v2, tam);
                     cout << "PUNTAJE ACUMULADO: " << puntajeJ2<< endl;
                     cout << "PUNTAJE DE RONDA: " << puntajeAux2 << endl;

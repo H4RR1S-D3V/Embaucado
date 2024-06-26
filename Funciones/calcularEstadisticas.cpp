@@ -4,7 +4,7 @@
 
 using namespace std;
 
-/// ESTA FUNCION RECIBE LOS PUNTAJES DE LA RONDA Y VERIFICA SI ALGUNO ENTRA EN EL TOP 3}
+/// ESTA FUNCION RECIBE LOS PUNTAJES DE LA RONDA Y VERIFICA SI ALGUNO ENTRA EN EL TOP 3
 /// TAMBIEN RECIBE LOS NOMBRES PARA ACOPLARLOS A SUS PUNTAJES
 void calcularEstadisticas(int puntajeMayor, std::string nombreGanador, int puntajeMenor, std::string nombrePerdedor, int vTopTresPuntos[], std::string vTopTresNombres[])
 {

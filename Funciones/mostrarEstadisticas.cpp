@@ -3,6 +3,7 @@
 
 using namespace std;
 
+/// RECIBE LOS VECTORES DE ESTADISTICAS Y LOS ITERA PARA MOSTRARLOS
 void mostrarEstadisticas(int vTopTresPuntos[], string vTopTresNombres[])
 {
     rlutil::cls();
@@ -38,7 +39,6 @@ void mostrarEstadisticas(int vTopTresPuntos[], string vTopTresNombres[])
     cout << vTopTresNombres[1] << endl;
     rlutil :: locate (95, 18);
     cout << vTopTresNombres[2] << endl;
-
 
     rlutil::anykey();
     rlutil::cls();

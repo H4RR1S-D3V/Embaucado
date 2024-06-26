@@ -5,6 +5,7 @@
 
 using namespace std;
 
+/// ESTA FUNCION GENNERA UN NUMERO "ALEATORIO" DEL 1 AL 4 Y SETEA EL RANGO DE CARTAS QUE NO SE SUMARAN A LOS PUTAJES DEL JUGADOR
 void robarEmbaucadora(int &minimo, int &maximo)
 {
     int nRandom = rand() % 4+1; /// NUMERO "ALEATORIO" DEL 1 AL 4
