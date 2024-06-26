@@ -1,5 +1,4 @@
 #pragma once
 
-
-void jugar(std::string nombreJugadorUno, std::string nombreJugadorDos);
+void jugar(int vTopTresPuntos[], std::string vTopTresNombres[]);
 
