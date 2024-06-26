@@ -6,12 +6,14 @@ using namespace std;
 
 int main()
 {
-    /// HOLAAAA
+    /// VECTORES DE ESTADISTICAS
+    int vTopTresPuntos[3] = {0};
+    string vTopTresNombres[3];
 
     /// SEMILLA EN CERO (PARA NUMEROS "ALEATOREOS")
     srand(time(0));
     /// INGRESAR AL MENU PRINCIPAL
-    menu();
+    menu(vTopTresPuntos, vTopTresNombres);
 
     return 0;
 }
