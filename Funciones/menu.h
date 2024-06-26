@@ -1,3 +1,3 @@
 #pragma once
 
-void menu();
+void menu(int vTopTresPuntos[], std::string vTopTresNombres[]);
