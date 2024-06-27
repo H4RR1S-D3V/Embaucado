@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include "rlutil.h"
 #include "mostrarEmbaucadora.h"
 
 using namespace std;
@@ -8,21 +9,25 @@ using namespace std;
 void mostrarEmbaucadora(int nRandom)
 {
     switch(nRandom)
-    {
+     {
     case 1:
-        cout << endl << "CARTA EMBAUCADORA: CORAZON" << endl;
+        rlutil :: locate (80,6);
+        cout << "CARTA EMBAUCADORA: "<< (char) 03 << "CORAZON" << (char) 03;
         break;
 
     case 2:
-        cout << endl << "CARTA EMBAUCADORA: DIAMANTE" << endl;
+        rlutil :: locate (80,6);
+        cout << "CARTA EMBAUCADORA: "<< (char) 04 << "DIAMANTE" << (char) 04 << endl;
         break;
 
     case 3:
-        cout << endl << "CARTA EMBAUCADORA: PICA" << endl;
+        rlutil :: locate (80,6);
+        cout << "CARTA EMBAUCADORA: " << (char) 06 << "PICA" << (char) 06 << endl;
         break;
 
     case 4:
-        cout << endl << "CARTA EMBAUCADORA: TREBOL" << endl;
+        rlutil :: locate (80,6);
+        cout << "CARTA EMBAUCADORA: " << (char) 05 << "TREBOL" << (char) 05 << endl;;
         break;
     }
 }

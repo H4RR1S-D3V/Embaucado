@@ -1,3 +1,3 @@
 #pragma once
 
-void decodificarCarta(int valor);
+void decodificarCarta(int x, int y, int valor);

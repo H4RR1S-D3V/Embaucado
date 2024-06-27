@@ -1,3 +1,3 @@
 #pragma once
 
-void decodificarMano(int v[], int tam);
+void decodificarMano(int x, int y, int v[], int tam);

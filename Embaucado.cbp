@@ -42,10 +42,10 @@
 		<Unit filename="Funciones/decodificarCarta.h" />
 		<Unit filename="Funciones/decodificarMano.cpp" />
 		<Unit filename="Funciones/decodificarMano.h" />
-		<Unit filename="Funciones/elegirNombres.cpp" />
-		<Unit filename="Funciones/elegirNombres.h" />
-		<Unit filename="Funciones/estadisticas.cpp" />
-		<Unit filename="Funciones/estadisticas.h" />
+		<Unit filename="Funciones/dibujarContorno.cpp" />
+		<Unit filename="Funciones/dibujarContorno.h" />
+		<Unit filename="Funciones/ingresarNombres.cpp" />
+		<Unit filename="Funciones/ingresarNombres.h" />
 		<Unit filename="Funciones/jugar.cpp" />
 		<Unit filename="Funciones/jugar.h" />
 		<Unit filename="Funciones/menu.cpp" />
@@ -56,10 +56,6 @@
 		<Unit filename="Funciones/mostrarEmbaucadora.h" />
 		<Unit filename="Funciones/mostrarEstadisticas.cpp" />
 		<Unit filename="Funciones/mostrarEstadisticas.h" />
-		<Unit filename="Funciones/mostrarMano.cpp" />
-		<Unit filename="Funciones/mostrarMano.h" />
-		<Unit filename="Funciones/mostrarMenu.cpp" />
-		<Unit filename="Funciones/mostrarMenu.h" />
 		<Unit filename="Funciones/mostrarReglas.cpp" />
 		<Unit filename="Funciones/mostrarReglas.h" />
 		<Unit filename="Funciones/rlutil.h" />
@@ -67,8 +63,6 @@
 		<Unit filename="Funciones/robarEmbaucadora.h" />
 		<Unit filename="Funciones/robarMano.cpp" />
 		<Unit filename="Funciones/robarMano.h" />
-		<Unit filename="Funciones/rondas.cpp" />
-		<Unit filename="Funciones/rondas.h" />
 		<Unit filename="Funciones/sumarPuntos.cpp" />
 		<Unit filename="Funciones/sumarPuntos.h" />
 		<Unit filename="main.cpp" />
