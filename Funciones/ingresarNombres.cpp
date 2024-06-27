@@ -93,11 +93,13 @@ void ingresarNombres(string &nombreJugadorUno, string &nombreJugadorDos)
         cout << "INGRESE NOMBRE DE JUGADOR UNO:";
         rlutil::locate(86,10);
         getline(cin, nombreJugadorUno);
+         cin.ignore();
 
         rlutil::locate(55,14);
         cout << "INGRESE NOMBRE DE JUGADOR DOS:";
         rlutil::locate(86,14);
         getline(cin, nombreJugadorDos);
+         cin.ignore();
 
         rlutil::locate(70,17);
         cout <<(char) 168 <<"CONFIRMAR NOMBRES?" << endl;

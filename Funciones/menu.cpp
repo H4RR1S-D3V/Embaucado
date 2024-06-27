@@ -20,6 +20,10 @@ void menu(int vTopTresPuntos[], string vTopTresNombres[]) /// RECIBE LOS VECTORE
     rlutil ::hidecursor();
     do
     {
+        ///TITULO
+        rlutil::locate(70,10);
+        cout << "E  M  B  A  U  C  A  D  O" ;
+
         rlutil ::hidecursor();
 
         /// EL CUADRADO QUE ENCIERRA EL MENU

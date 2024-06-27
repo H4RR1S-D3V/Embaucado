@@ -11,12 +11,12 @@ void dibujarContorno()
 
     // INFERIOR
 
-    rlutil :: locate (45, 18);
+    rlutil :: locate (45, 19);
     for(int i=0; i<69; i++)
     {
         cout << (char) 205;
     }
-    rlutil :: locate (45, 18);
+    rlutil :: locate (45, 19);
 
     // SUPERIOR
     rlutil :: locate (45,7);

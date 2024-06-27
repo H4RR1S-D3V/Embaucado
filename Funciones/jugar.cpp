@@ -118,6 +118,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
             decodificarMano(55, 11, v, tam);
             rlutil::locate(50, 17);
             cout << "PUNTAJE ACUMULADO: " << puntajeJ1<< endl;
+            rlutil::locate(50, 18);
             cout << "PUNTAJE DE RONDA: " << puntajeAux1 << endl;
 
             rlutil::locate(94, 9);
@@ -126,12 +127,13 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
             decodificarMano(95, 11, v2, tam);
             rlutil::locate(90, 17);
             cout << "PUNTAJE ACUMULADO: " << puntajeJ2<< endl;
+            rlutil::locate(90, 18);
             cout << "PUNTAJE DE RONDA: " << puntajeAux2 << endl;
 
             // DAR OPCION DE CAMBIAR EMBAUCADORA (DE SER POSIBLE)
             if(puntajeJ1 >= 20)
             {
-                cout << endl << nombreJugadorUno << ": ¿CAMBIAR EMBAUCADORA? S / N" << endl;
+                cout << endl << nombreJugadorUno << ": "<<(char) 168 <<"CAMBIAR EMBAUCADORA? S / N" << endl;
                 cin >> cambiarEmbaucadora;
 
                 if(cambiarEmbaucadora == char(83) || cambiarEmbaucadora == char(115))
@@ -156,6 +158,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
                     decodificarMano(55, 11, v, tam);
                     rlutil::locate(50, 17);
                     cout << "PUNTAJE ACUMULADO: " << puntajeJ1<< endl;
+                    rlutil::locate(50, 18);
                     cout << "PUNTAJE DE RONDA: " << puntajeAux1 << endl;
 
                     rlutil::locate(94, 9);
@@ -164,6 +167,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
                     decodificarMano(95, 11, v2, tam);
                     rlutil::locate(90, 17);
                     cout << "PUNTAJE ACUMULADO: " << puntajeJ2<< endl;
+                    rlutil::locate(90, 18);
                     cout << "PUNTAJE DE RONDA: " << puntajeAux2 << endl;
 
                     /// ACUMULAR PUNTAJES
@@ -173,7 +177,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
             }
             if((puntajeJ2 >= 20) && (cambiarEmbaucadora == char(78) || cambiarEmbaucadora == char(110)))
             {
-                cout << endl << nombreJugadorDos << ": ¿CAMBIAR EMBAUCADORA? S / N" << endl;
+                cout << endl << nombreJugadorDos << ": "<<(char) 168 <<"CAMBIAR EMBAUCADORA? S / N" << endl;
                 cin >> cambiarEmbaucadora;
 
                 if(cambiarEmbaucadora == char(83) || cambiarEmbaucadora == char(115))
@@ -198,6 +202,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
                     decodificarMano(55, 11, v, tam);
                     rlutil::locate(50, 17);
                     cout << "PUNTAJE ACUMULADO: " << puntajeJ1<< endl;
+                    rlutil::locate(50, 18);
                     cout << "PUNTAJE DE RONDA: " << puntajeAux1 << endl;
 
                     rlutil::locate(94, 9);
@@ -206,6 +211,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
                     decodificarMano(95, 11, v2, tam);
                     rlutil::locate(90, 17);
                     cout << "PUNTAJE ACUMULADO: " << puntajeJ2<< endl;
+                    rlutil::locate(90, 18);
                     cout << "PUNTAJE DE RONDA: " << puntajeAux2 << endl;
 
                     /// ACUMULAR PUNTAJES
@@ -219,6 +225,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
                 puntajeJ1+=puntajeAux1;
                 puntajeJ2+=puntajeAux2;
             }
+            cin.ignore();
             cout << endl << "ENTER PARA CONTINUAR..." << endl;
             rlutil::getkey();
             system("cls");
@@ -238,6 +245,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
             decodificarMano(55, 11, v, tam);
             rlutil::locate(50, 17);
             cout << "PUNTAJE ACUMULADO: " << puntajeJ1<< endl;
+            rlutil::locate(50, 18);
             cout << "PUNTAJE DE RONDA: " << puntajeAux1 << endl;
 
             rlutil::locate(94, 9);
@@ -246,11 +254,12 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
             decodificarMano(95, 11, v2, tam);
             rlutil::locate(90, 17);
             cout << "PUNTAJE ACUMULADO: " << puntajeJ2<< endl;
+            rlutil::locate(90, 18);
             cout << "PUNTAJE DE RONDA: " << puntajeAux2 << endl;
 
             if(puntajeJ2 >= 20)
             {
-                cout << endl << nombreJugadorDos << ": ¿CAMBIAR EMBAUCADORA? S / N" << endl;
+                cout << endl << nombreJugadorDos << ": "<<(char) 168 <<"CAMBIAR EMBAUCADORA? S / N" << endl;
                 cin >> cambiarEmbaucadora;
 
                 if(cambiarEmbaucadora == char(83) || cambiarEmbaucadora == char(115))
@@ -274,6 +283,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
                     decodificarMano(55, 11, v, tam);
                     rlutil::locate(50, 17);
                     cout << "PUNTAJE ACUMULADO: " << puntajeJ1<< endl;
+                    rlutil::locate(50, 18);
                     cout << "PUNTAJE DE RONDA: " << puntajeAux1 << endl;
 
                     rlutil::locate(94, 9);
@@ -282,6 +292,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
                     decodificarMano(95, 11, v2, tam);
                     rlutil::locate(90, 17);
                     cout << "PUNTAJE ACUMULADO: " << puntajeJ2<< endl;
+                    rlutil::locate(90, 18);
                     cout << "PUNTAJE DE RONDA: " << puntajeAux2 << endl;
 
                     /// ACUMULAR PUNTAJES
@@ -291,7 +302,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
             }
             if(puntajeJ1 >= 20 && (cambiarEmbaucadora == char(78) || cambiarEmbaucadora == char(110)))
             {
-                cout << endl << nombreJugadorUno << ": ¿CAMBIAR EMBAUCADORA? S / N" << endl;
+                cout << endl << nombreJugadorUno << ": "<<(char) 168 <<"CAMBIAR EMBAUCADORA? S / N" << endl;
                 cin >> cambiarEmbaucadora;
 
                 if(cambiarEmbaucadora == char(83) || cambiarEmbaucadora == char(115))
@@ -315,6 +326,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
                     decodificarMano(55, 11, v, tam);
                     rlutil::locate(50, 17);
                     cout << "PUNTAJE ACUMULADO: " << puntajeJ1<< endl;
+                    rlutil::locate(50, 18);
                     cout << "PUNTAJE DE RONDA: " << puntajeAux1 << endl;
 
                     rlutil::locate(94, 9);
@@ -323,6 +335,7 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
                     decodificarMano(95, 11, v2, tam);
                     rlutil::locate(90, 17);
                     cout << "PUNTAJE ACUMULADO: " << puntajeJ2<< endl;
+                    rlutil::locate(90, 18);
                     cout << "PUNTAJE DE RONDA: " << puntajeAux2 << endl;
 
                     /// ACUMULAR PUNTAJES
@@ -336,45 +349,52 @@ void jugar(int vTopTresPuntos[], string vTopTresNombres[])
                 puntajeJ1+=puntajeAux1;
                 puntajeJ2+=puntajeAux2;
             }
-
+            cin.ignore();
             cout << endl << "ENTER PARA CONTINUAR..." << endl;
             rlutil::getkey();
             system("cls");
 
             /// PANTALLA DE GANADOR
             rlutil ::setColor(rlutil::BROWN);
+            rlutil :: locate (50, 7);
             cout << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 <<  (char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 << endl;
             rlutil :: locate (50, 12);
             cout << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 <<  (char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 << endl;
             rlutil :: locate (50, 20);
             cout << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 << (char)42 <<  (char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 <<(char)42 << endl;
-
-            cout << endl << "---PUNTAJES FINALES---";
-            rlutil::locate(54, 9);
+            rlutil ::setColor(rlutil::WHITE);
+            rlutil :: locate (60, 9);
+            cout<< "P  U  N  T  A  J  E  S     F  I  N  A  L  E  S";
+            rlutil::locate(54, 15);
             cout << nombreJugadorUno << ": " << puntajeJ1; "!";
-            rlutil::locate(94, 9);
+            rlutil::locate(94, 15);
             cout << nombreJugadorDos << ": " << puntajeJ2; "!";
 
             /// DEFINIR GANADOR
             if(puntajeJ1 > puntajeJ2)
             {
-                cout << endl << "GANADOR/A: " << nombreJugadorUno;
+                rlutil::locate(68, 18);
+                cout << "GANADOR/A: " << nombreJugadorUno;
                 /// GANADOR JR1
                 calcularEstadisticas(puntajeJ1, nombreJugadorUno, puntajeJ2, nombreJugadorDos, vTopTresPuntos, vTopTresNombres);
             }
             else if(puntajeJ2 > puntajeJ1)
             {
-                cout << endl << "GANADOR/A: " << nombreJugadorDos;
+                rlutil::locate(68, 18);
+                cout<< "GANADOR/A: " << nombreJugadorDos;
                 /// GANADOR JR2
                 calcularEstadisticas(puntajeJ2, nombreJugadorDos, puntajeJ1, nombreJugadorUno, vTopTresPuntos, vTopTresNombres);
             }
             else
             {
-                cout << endl << "¡EMPATE!";
+                rlutil::locate(68, 18);
+                cout<< "¡EMPATE!";
                 /// EMPATE
                 calcularEstadisticas(puntajeJ1, nombreJugadorUno, puntajeJ2, nombreJugadorDos, vTopTresPuntos, vTopTresNombres);
             }
-            cout << endl << "ENTER PARA CONTINUAR..." << endl;
+
+            rlutil::locate(67, 22);
+            cout << "ENTER PARA REGRESAR A MENU...";
             rlutil::anykey();
             rlutil::cls();
             cin.ignore();
