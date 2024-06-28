@@ -1,6 +1,8 @@
 #include <iostream>
 
 #include "rlutil.h"
+
+#include "estiloDeMenu.h"
 #include "jugar.h"
 #include "mostrarReglas.h"
 #include "mostrarEstadisticas.h"
@@ -28,59 +30,7 @@ void menu(int vTopTresPuntos[], string vTopTresNombres[]) /// RECIBE LOS VECTORE
 
         /// EL CUADRADO QUE ENCIERRA EL MENU
 
-        // LINEA ARRIBA Y ABAJO
-        rlutil::locate(60,15);
-        cout << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 <<  (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << endl;
-        rlutil::locate(60,25);
-        cout << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 <<  (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << (char) 205 << endl;
-
-        // LINEAS DE LOS COSTADOS
-        rlutil::locate(59,24);
-        cout << (char) 186 << endl;
-        rlutil::locate(59,23);
-        cout << (char) 186 << endl;
-        rlutil::locate(59,22);
-        cout << (char) 186 << endl;
-        rlutil::locate(59,21);
-        cout << (char) 186 << endl;
-        rlutil::locate(59,20);
-        cout << (char) 186 << endl;
-        rlutil::locate(59,19);
-        cout << (char) 186 << endl;
-        rlutil::locate(59,18);
-        cout << (char) 186 << endl;
-        rlutil::locate(59,17);
-        cout << (char) 186 << endl;
-        rlutil::locate(59,16);
-        cout << (char) 186 << endl;
-
-        rlutil::locate(104,24);
-        cout << (char) 186 << endl;
-        rlutil::locate(104,23);
-        cout << (char) 186 << endl;
-        rlutil::locate(104,22);
-        cout << (char) 186 << endl;
-        rlutil::locate(104,21);
-        cout << (char) 186 << endl;
-        rlutil::locate(104,20);
-        cout << (char) 186 << endl;
-        rlutil::locate(104,19);
-        cout << (char) 186 << endl;
-        rlutil::locate(104,18);
-        cout << (char) 186 << endl;
-        rlutil::locate(104,17);
-        cout << (char) 186 << endl;
-        rlutil::locate(104,16);
-        cout << (char) 186 << endl;
-        // ESQUINAS
-        rlutil::locate(59,15);
-        cout << (char) 201<< endl;
-        rlutil::locate(59,25);
-        cout << (char) 200<< endl;
-        rlutil::locate(104,25);
-        cout << (char) 188<< endl;
-        rlutil::locate(104,15);
-        cout << (char) 187<< endl;
+        estiloDeMenu();
 
         ///MENU
         rlutil::locate(78,17);
