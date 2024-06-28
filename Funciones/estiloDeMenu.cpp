@@ -15,7 +15,6 @@ void estiloDeMenu()
 
         rlutil::locate(60+i,25);
         cout << (char) 205;
-
     }
     // LINEAS DE LOS COSTADOS
     for(int j=24; j>15; j--)
