@@ -44,6 +44,10 @@
 		<Unit filename="Funciones/decodificarMano.h" />
 		<Unit filename="Funciones/dibujarContorno.cpp" />
 		<Unit filename="Funciones/dibujarContorno.h" />
+		<Unit filename="Funciones/elegirOpcion.cpp" />
+		<Unit filename="Funciones/elegirOpcion.h" />
+		<Unit filename="Funciones/estiloDeMenu.cpp" />
+		<Unit filename="Funciones/estiloDeMenu.h" />
 		<Unit filename="Funciones/ingresarNombres.cpp" />
 		<Unit filename="Funciones/ingresarNombres.h" />
 		<Unit filename="Funciones/jugar.cpp" />
@@ -56,6 +60,8 @@
 		<Unit filename="Funciones/mostrarEmbaucadora.h" />
 		<Unit filename="Funciones/mostrarEstadisticas.cpp" />
 		<Unit filename="Funciones/mostrarEstadisticas.h" />
+		<Unit filename="Funciones/mostrarOpciones.cpp" />
+		<Unit filename="Funciones/mostrarOpciones.h" />
 		<Unit filename="Funciones/mostrarReglas.cpp" />
 		<Unit filename="Funciones/mostrarReglas.h" />
 		<Unit filename="Funciones/rlutil.h" />
