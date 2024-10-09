@@ -1,7 +1,7 @@
 # Embaucado
 Juego de consola - Proyecto Programación I
 
-![Banner](img/banner.jpg)
+![Banner](banner.png)
 
 ## Reglas
 - El juego se desarrolla en 3 rondas, por cada una de ellas ambos jugadores robaran 5 cartas del mazo.
